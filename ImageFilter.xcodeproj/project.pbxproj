@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		F6022B0324DD64270060CFD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6022B0224DD64270060CFD5 /* AppDelegate.swift */; };
-		F6022B0524DD64270060CFD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6022B0424DD64270060CFD5 /* SceneDelegate.swift */; };
 		F6022B0724DD64270060CFD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6022B0624DD64270060CFD5 /* ViewController.swift */; };
 		F6022B0A24DD64270060CFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6022B0824DD64270060CFD5 /* Main.storyboard */; };
 		F6022B0C24DD64280060CFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6022B0B24DD64280060CFD5 /* Assets.xcassets */; };
 		F6022B0F24DD64280060CFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6022B0D24DD64280060CFD5 /* LaunchScreen.storyboard */; };
+		F6022B2B24DE4F7B0060CFD5 /* IMG_4777.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6022B2A24DE4F7B0060CFD5 /* IMG_4777.jpg */; };
+		F628ACD624EA89AB00388CCF /* LUTImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628ACD024EA89AB00388CCF /* LUTImageFilter.swift */; };
+		F628ACD724EA89AB00388CCF /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628ACD124EA89AB00388CCF /* UIColor+Extensions.swift */; };
+		F628ACD824EA89AB00388CCF /* LUTImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628ACD224EA89AB00388CCF /* LUTImageManager.swift */; };
+		F628ACD924EA89AB00388CCF /* LUTImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628ACD324EA89AB00388CCF /* LUTImagePickerView.swift */; };
+		F628ACDA24EA89AB00388CCF /* lut_filter_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F628ACD524EA89AB00388CCF /* lut_filter_3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F6022AFF24DD64270060CFD5 /* ImageFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6022AFF24DD64270060CFD5 /* LUT滤镜.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LUT滤镜.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6022B0224DD64270060CFD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6022B0424DD64270060CFD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F6022B0624DD64270060CFD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6022B0924DD64270060CFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6022B0B24DD64280060CFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6022B0E24DD64280060CFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6022B1024DD64280060CFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6022B2A24DE4F7B0060CFD5 /* IMG_4777.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4777.jpg; sourceTree = "<group>"; };
+		F628ACD024EA89AB00388CCF /* LUTImageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUTImageFilter.swift; sourceTree = "<group>"; };
+		F628ACD124EA89AB00388CCF /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		F628ACD224EA89AB00388CCF /* LUTImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUTImageManager.swift; sourceTree = "<group>"; };
+		F628ACD324EA89AB00388CCF /* LUTImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUTImagePickerView.swift; sourceTree = "<group>"; };
+		F628ACD524EA89AB00388CCF /* lut_filter_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lut_filter_3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +58,7 @@
 		F6022B0024DD64270060CFD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6022AFF24DD64270060CFD5 /* ImageFilter.app */,
+				F6022AFF24DD64270060CFD5 /* LUT滤镜.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +66,36 @@
 		F6022B0124DD64270060CFD5 /* ImageFilter */ = {
 			isa = PBXGroup;
 			children = (
+				F628ACCF24EA89AB00388CCF /* Classes */,
+				F628ACD424EA89AB00388CCF /* FilterReources */,
 				F6022B0224DD64270060CFD5 /* AppDelegate.swift */,
-				F6022B0424DD64270060CFD5 /* SceneDelegate.swift */,
 				F6022B0624DD64270060CFD5 /* ViewController.swift */,
+				F6022B2A24DE4F7B0060CFD5 /* IMG_4777.jpg */,
 				F6022B0824DD64270060CFD5 /* Main.storyboard */,
 				F6022B0B24DD64280060CFD5 /* Assets.xcassets */,
 				F6022B0D24DD64280060CFD5 /* LaunchScreen.storyboard */,
 				F6022B1024DD64280060CFD5 /* Info.plist */,
 			);
 			path = ImageFilter;
+			sourceTree = "<group>";
+		};
+		F628ACCF24EA89AB00388CCF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F628ACD024EA89AB00388CCF /* LUTImageFilter.swift */,
+				F628ACD124EA89AB00388CCF /* UIColor+Extensions.swift */,
+				F628ACD224EA89AB00388CCF /* LUTImageManager.swift */,
+				F628ACD324EA89AB00388CCF /* LUTImagePickerView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F628ACD424EA89AB00388CCF /* FilterReources */ = {
+			isa = PBXGroup;
+			children = (
+				F628ACD524EA89AB00388CCF /* lut_filter_3.png */,
+			);
+			path = FilterReources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +115,7 @@
 			);
 			name = ImageFilter;
 			productName = ImageFilter;
-			productReference = F6022AFF24DD64270060CFD5 /* ImageFilter.app */;
+			productReference = F6022AFF24DD64270060CFD5 /* LUT滤镜.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,8 +156,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6022B2B24DE4F7B0060CFD5 /* IMG_4777.jpg in Resources */,
 				F6022B0F24DD64280060CFD5 /* LaunchScreen.storyboard in Resources */,
 				F6022B0C24DD64280060CFD5 /* Assets.xcassets in Resources */,
+				F628ACDA24EA89AB00388CCF /* lut_filter_3.png in Resources */,
 				F6022B0A24DD64270060CFD5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F628ACD924EA89AB00388CCF /* LUTImagePickerView.swift in Sources */,
 				F6022B0724DD64270060CFD5 /* ViewController.swift in Sources */,
 				F6022B0324DD64270060CFD5 /* AppDelegate.swift in Sources */,
-				F6022B0524DD64270060CFD5 /* SceneDelegate.swift in Sources */,
+				F628ACD824EA89AB00388CCF /* LUTImageManager.swift in Sources */,
+				F628ACD624EA89AB00388CCF /* LUTImageFilter.swift in Sources */,
+				F628ACD724EA89AB00388CCF /* UIColor+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +323,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH9S55UWSR;
 				INFOPLIST_FILE = ImageFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.suen.ImageFilter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "LUT滤镜";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,14 +342,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH9S55UWSR;
 				INFOPLIST_FILE = ImageFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.suen.ImageFilter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "LUT滤镜";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
